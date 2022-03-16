@@ -10,10 +10,10 @@ delete the comments on the json so in the section query paste this:
 
 input.value.map(e=> e.remoteUrl)
 
-take the output paste in my.list file and en vs code change CRLF to LF and safe
+take the output paste in my.list file and in vs code change CRLF to LF and save
 
-now from bash console you execure the next command:
+now from bash console you can execute the next command:
 
-bash multiple-git-clone.sh my.list  (enjoy)
+bash multiple-git-clone.sh my.list
 
 tip: in multiple-git-clone.sh you can modify for example yocu can change folder or url
