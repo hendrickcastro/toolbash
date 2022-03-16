@@ -6,7 +6,7 @@ take these and go to and copy:
 https://www.jsonquerytool.com/
 
 on the left section in Transform change to Javascript
-delete the comments on the json so in the section query paste it:
+delete the comments on the json so in the section query paste this:
 
 input.value.map(e=> e.remoteUrl)
 
