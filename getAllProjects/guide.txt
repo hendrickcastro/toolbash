@@ -1,0 +1,19 @@
+/**************get all projects fron devops******************/
+https://dev.azure.com/RockTheSport2025/_apis/git/repositories?api-version=6.0-preview.1
+
+take these and go to and copy:
+
+https://www.jsonquerytool.com/
+
+on the left section in Transform change to Javascript
+delete the comments on the json so in the section query paste it:
+
+input.value.map(e=> e.remoteUrl)
+
+take the output paste in my.list file and en vs code change CRLF to LF and safe
+
+now from bash console you execure the next command:
+
+bash multiple-git-clone.sh my.list  (enjoy)
+
+tip: in multiple-git-clone.sh you can modify for example yocu can change folder or url
